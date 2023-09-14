@@ -1,0 +1,14 @@
+.section4 header.masthead {
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-masterhead4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.section4 .more-description {
+    text-align: justify;
+    font-size: 19px;
+}
+
+
