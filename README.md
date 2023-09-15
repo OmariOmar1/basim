@@ -1,2 +1,2 @@
 # basim
-my uncle's website
+Website for Basim M. Alomari.
