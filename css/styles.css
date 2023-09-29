@@ -43,7 +43,7 @@
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
   --bs-primary-rgb: 244, 98, 58;
-  --bs-secondary-rgb: 108, 117, 125;
+  --bs-secondary-rgb: 58, 244, 224;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
   --bs-warning-rgb: 255, 193, 7;
@@ -10933,12 +10933,26 @@ hr.divider-light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-masterhead.jpg");
+  background: url("../assets/img/bg-masterhead1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
 }
+
+.text-container {
+  background-color: rgba(0, 0, 0, 0.5); /* Add a semi-transparent background color */
+  color: #ffffff; /* Text color */
+  padding: 20px; /* Adjust padding as needed */
+  border-radius: 10px; /* Add rounded corners for a modern look */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%; /* Adjust the width to your preference */
+  max-width: 600px; /* Set a maximum width if needed */
+}
+
 header.masthead h1, header.masthead .h1 {
   font-size: 2.25rem;
 }
@@ -10996,4 +11010,54 @@ header.masthead h1, header.masthead .h1 {
 }
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
+}
+
+/*index css*/
+p {
+  text-align: justify;
+}
+
+/* Style for the image */
+.page-section.contains-image .col-lg-6 img {
+  width: 588px;
+  height: 588px;
+}
+
+/* Style for the section heading */
+.page-section.contains-image h2 {
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+/* Style for the divider */
+.page-section.contains-image .divider {
+  background-color: white;
+}
+
+/* Style for the list items */
+.page-section.contains-image .service-list-item {
+  color: white;
+  margin-bottom: 10px;
+}
+
+/* Style for the paragraph text */
+.page-section.contains-image p {
+  color: white;
+}
+
+/* Style for the "Contact Us" button */
+.page-section.contains-image .btn-light {
+  background-color: white;
+  color: rgb(244, 98, 58);
+  border: none;
+}
+
+/* Style for the "Contact Us" button on hover */
+.page-section.contains-image .btn-light:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: rgb(244, 98, 58);
+  text-decoration: none;
 }

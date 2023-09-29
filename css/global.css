@@ -8,6 +8,7 @@
     text-align: left;
     z-index: 2;
     transition: .3s;
+    cursor: pointer;
 }
 
 .section-point p,
@@ -16,7 +17,8 @@
 }
 
 .section-point p{
-    color:  rgba(255, 255, 255, 0.65);
+    color: rgba(0, 0, 0, 0.65);
+    text-align: initial;
 }
 
 .section-point:hover{
@@ -32,4 +34,23 @@
     width: 50%;
     padding-bottom: 15px;
     margin-bottom: 5px;
+}
+
+/*footer*/
+/* Style for the footer images */
+.image-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+
+.footer-image {
+    height: 60px; /* Maintain the aspect ratio */
+}
+
+/* Responsive styling for smaller screens (phones) */
+@media (max-width: 768px) {
+    .footer-image {
+        max-width: 50px; /* Reduce the image size for smaller screens */
+    }
 }
