@@ -10941,7 +10941,7 @@ header.masthead {
 }
 
 .text-container {
-  background-color: rgba(0, 0, 0, 0.5); /* Add a semi-transparent background color */
+  /*background-color: rgba(0, 0, 0, 0.5); !* Add a semi-transparent background color *!*/
   color: #ffffff; /* Text color */
   padding: 20px; /* Adjust padding as needed */
   border-radius: 10px; /* Add rounded corners for a modern look */
